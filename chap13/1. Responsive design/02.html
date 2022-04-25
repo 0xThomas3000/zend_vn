@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media screen style</title>
+
+  <style type="text/css">
+    @media screen and (max-width: 1000px) {
+
+      /* Cac loai man hinh (<1000px) */
+      /* Cac thanh phan can dinh dang css */
+      body {
+        width: 100%;
+        background-color: yellow;
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+
+      /* Cac loai man hinh (co kich thuoc > 1000px) */
+      /* Cac thanh phan can dinh dang css */
+      body {
+        width: 100%;
+        background-color: red;
+      }
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1000px) {
+
+      /* Cac loai man hinh (co kich thuoc > 1000px) */
+      /* Cac thanh phan can dinh dang css */
+      body {
+        width: 100%;
+        background-color: blue;
+      }
+    }
+
+    @media screen and (orientation: landscape) {
+
+      /* Cac loai man hinh (chieu ngang) */
+      /* Cac thanh phan can dinh dang css */
+      body {
+        width: 100%;
+        background-color: pink;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+</body>
+
+</html>
