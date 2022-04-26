@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../bootstrap/css/style.css" rel="stylesheet">
+  <!-- Install Bootstrap and Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--
+    Nesting columns
+    |1|2|3|4|5|6|7|8|9|0|1|2|
+    |LLLLLLLLLLLLL|RRRRRRRRR|
+    |111111|222222|RRRRRRRRR|
+  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <div class="row">
+          <div class="col-md-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <div class="row">
+              <div class="col-md-10">col-md-10</div>
+              <div class="col-md-2">col-md-2</div>
+            </div>
+          </div>
+          <div class="col-md-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+          <div class="col-md-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
